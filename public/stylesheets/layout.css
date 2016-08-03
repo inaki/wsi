@@ -1,0 +1,110 @@
+/* === LAYOUT STYLES === */
+
+header {
+	background-color: white;
+}
+
+header #home, header #about, header #challenge {
+	min-width: 80%;
+	height: 120px;
+}
+
+@media (max-width: 400px) {
+
+	header #home, header #about, header #challenge {
+		margin-top: 15px;
+	}
+}
+
+aside.layout-sidebar {
+	padding: 10px 15px;
+	-ms-flex-item-align: start;
+	    align-self: flex-start;
+	width: 200px;
+}
+
+@media (max-width: 400px) {
+
+	aside.layout-sidebar {
+		display: none;
+	}
+}
+
+footer {
+	color: white;
+	background-color: #404040;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.layout-flexVertical {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.layout-flexHorizontal {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.layout-mainContent {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+}
+
+.right-content {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	position: relative;
+	border-left: 5px solid black;
+}
+
+.large-content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav-footer, .copy {
+	-ms-flex-item-align: center;
+	    align-self: center;
+}
+
+.nav-footer {
+	margin-top: 20px;
+}
+
+.nav-footer li {
+	display: inline;
+}

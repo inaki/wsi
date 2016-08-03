@@ -1,0 +1,74 @@
+/* === NAVIGATION STYLES === */
+
+ul.tab {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+@media (max-width: 400px) {
+
+    ul.tab {
+        display: none;
+
+    }
+
+}
+
+ul.tab li {
+    float: right;
+    margin-left: 15px;
+    border-top: 1px solid #36A1D9;
+    border-left: 1px solid #36A1D9;
+    border-right: 1px solid #36A1D9;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+ul.tab li .active:hover {
+    background-color: #36A1D9;
+
+}
+
+ul.tab a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+ul.tab a:hover {
+    background-color: #36A1D9;
+    color: white;
+
+}
+
+.tablinks.active {background-color: #36A1D9; color: white;}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -1,0 +1,115 @@
+/* === MODULES STYLES === */
+
+
+.base-color {
+	background-color: #36A1D9;
+}
+.tabcontent q {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 45px;
+	color: white;
+}
+@media (min-width: 550px) {
+
+
+	.tabcontent q {
+		margin-top: 25px;
+	}
+}
+@media (max-width: 400px) {
+
+
+	.tabcontent q {
+		margin-top: 15px;
+		font-size: 1.5rem;
+	}
+}
+aside.layout-sidebar h3 {
+	color: white;
+	background-color: #36A1D9;
+	padding: 10px 40px;
+	margin-left: -30px;
+	border-bottom-right-radius: 25px;
+}
+aside.layout-sidebar a:hover {
+	color: #D6CABA;
+}
+.description, .thumbnails, .cards {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+@media (min-width: 550px) {
+
+
+	.description, .thumbnails, .cards {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+}
+
+.description {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 20px auto;
+}
+
+.thumbnails {
+	-ms-flex-preferred-size: 900px;
+	    flex-basis: 900px;
+}
+
+.thumbnails img {
+	margin-bottom: 20px;
+}
+
+@media (min-width: 550px) {
+
+
+	.thumbnails img {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 400px) {
+
+
+	.thumbnails img {
+		width: 150px;
+	}
+}
+
+.text-card {
+	border: 1px solid black;
+	max-width: 400px;
+	padding: 20px 30px;
+}
+
+@media (min-width: 550px) {
+
+
+	.text-card {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 400px) {
+
+
+	.text-card {
+		margin: 20px 0;
+	}
+}
+

@@ -1,0 +1,28 @@
+/* === BASE STYLES === */
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+}
+a {
+	color: #2A96F1;
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	list-style: none;
+}
+q {
+	font-size: 2rem;
+}
+header h1 {
+	font-size: 2.5rem;
+	max-width: 500px;
+	margin: 40px 0 0px 50px;
+}

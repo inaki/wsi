@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <title>William Sonoma Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="stylesheet" href="stylesheets/module.css">
+  <link rel="stylesheet" href="stylesheets/navigation.css">
+</head>
+<body class="layout-flexVertical">
+  <header>
+  	<h1>WSI Markup Challenge</h1>
+  	<div class="nav-tabs">
+  		<ul class="tab large-content">
+		  	<li><a href="#" class="tablinks active" onclick="openSection(event, 'challenge')">Take the challenge</a></li>
+		  	<li><a href="#" class="tablinks" onclick="openSection(event, 'about')">about</a></li>
+			<li><a href="#" class="tablinks" onclick="openSection(event, 'home')">home</a></li>	
+		</ul>
+		<div id="home" class="tabcontent base-color">
+			<q>Home Sweet Home</q>
+		</div>
+		<div id="about" class="tabcontent base-color">
+			<q>Who are we?</q>
+		</div>
+		<div id="challenge" class="tabcontent base-color" style="display: block;">
+			<q>The mind is everything. What you think, you become.</q>
+		</div>
+  	</div>
+  </header>
+  <div class="layout-mainContent">
+  	  	<aside class="layout-sidebar">
+  	  		<h3>Categories</h3>
+  	  		<ul>
+  	  			<li><a href="#">Bedding</a></li>
+  	  			<li><a href="#">Bath</a></li>
+  	  			<li><a href="#">Rooms</a></li>
+  	  			<li><a href="#">Kitchen</a></li>
+  	  			<li><a href="#">Living</a></li>
+  	  			<li><a href="#">Cars</a></li>
+  	  			<li><a href="#">Birds</a></li>
+  	  			<li><a href="#">Planes</a></li>
+  	  		</ul>
+
+  	  		<h3>Pages</h3>
+  	  		<ul>
+  	  			<li><a href="#">Bedding</a></li>
+  	  			<li><a href="#">Bath</a></li>
+  	  			<li><a href="#">Rooms</a></li>
+  	  			<li><a href="#">Kitchen</a></li>
+  	  			<li><a href="#">Living</a></li>
+  	  			<li><a href="#">Cars</a></li>
+  	  			<li><a href="#">Birds</a></li>
+  	  			<li><a href="#">Planes</a></li>
+  	  		</ul>
+  	  	</aside>
+  	  	<section id="home-view" class="right-content tabcontent">home</section>
+  	  	<section id="about-view" class="right-content tabcontent">about</section>
+  		<section id="challenge-view" class="right-content tabcontent active" style="display: block;">
+  			<div class="description large-content">
+  				<h3>Some Title</h3>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit perferendis necessitatibus, labore quam, repellendus delectus quas animi, maxime a voluptatum fugiat temporibus, ab molestias. Eligendi voluptatibus veniam impedit voluptatum doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sunt quas odio beatae deserunt sequi sint vitae obcaecati dignissimos, porro voluptate asperiores iure blanditiis eum ut sit possimus ratione quasi.</p>
+  			</div>
+  			<div class="thumbnails layout-flexHorizontal large-content">
+  				<img src="https://unsplash.it/200/175?random" alt="">
+  				<img src="https://unsplash.it/200/175?random" alt="">
+  				<img src="https://unsplash.it/200/175?random" alt="">
+  				<img src="https://unsplash.it/200/175?random" alt="">
+  			</div>
+  			<div class="cards layout-flexHorizontal large-content">
+  				<div class="text-card layout-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum expedita itaque libero quaerat quibusdam soluta, accusamus optio cumque numquam similique exercitationem non magnam eligendi nulla, iure ipsa totam! Perspiciatis.Dolore architecto, praesentium. Provident culpa et nesciunt nihil consequatur beatae illum odit cum repellendus sequi doloremque!</div>
+  				<div class="text-card layout-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum expedita itaque libero quaerat quibusdam soluta, accusamus optio cumque numquam similique exercitationem non magnam eligendi nulla, iure ipsa totam! Perspiciatis. Lorem ipsum , sequi dolor expedita saepe quia culpa mollitia nobis iusto, suscipit nesciunt voluptatem nemo ipsum enim!</div>
+  			</div>
+
+  		</section>  	
+  </div>
+  <footer>
+  	<ul class="nav-footer">
+  		<li><a href="">home </a>| </li>
+  		<li><a href="">contact </a>| </li>
+  		<li><a href="">about us </a>| </li>
+  		<li><a href="">sitemap </a>| </li>
+  		<li><a href="">stores </a>| </li>
+  		<li><a href="">feedback</a></li>
+  	</ul>
+  	<p class="copy"> &#169; Copyright 2009 Williams Sonoma, Inc.</p>
+  </footer>
+  <script src="javascripts/app.js"></script>
+</body>
+</html>
